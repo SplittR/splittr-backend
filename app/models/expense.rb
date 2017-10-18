@@ -37,7 +37,7 @@ class Expense < ApplicationRecord
             }.to_json,
     :headers => { 'Content-Type' => 'application/json' } )
     # binding.pry
-    puts @result.response
+    # puts @result.response
   end
 
   def find_total_from_receipt(str)
