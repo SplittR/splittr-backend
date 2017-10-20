@@ -1,24 +1,5 @@
 # README
+## Summary
+This backend API is constructed using Ruby on rails. The API connects to our React Native front end through our RESTful routes. This application connects to the Google Vision API and uses a base64 string to transfer the captured image from frontend to backend then off to the Google's API for analysis. This application utilizes a PostgrSQL database and ActiveRecord ROM to interpret information from the database.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Visual Overview
